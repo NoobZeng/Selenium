@@ -1,0 +1,28 @@
+LoginPage:
+  doc: 登录页面
+  #
+  locators:
+    -
+      name: 选择账号登录
+      type: xpath
+      value: //android.view.View[@content-desc="续狂xukuamg 通过百度网盘关联 "]
+    -
+      name: 选择其他账号登录
+      type: accessibility_id
+      value: 用其它帐号登录
+    -
+      name: 选择账号密码登录
+      type: accessibility_id
+      value: 帐号名密码登录
+    -
+      name: 账号输入框
+      type: accessibility_id
+      value: 请输入用户名/手机号/邮箱
+    -
+      name: 密码输入框
+      type: xpath
+      value: //android.webkit.WebView[@content-desc="百度帐号登录"]/android.view.View/android.view.View[4]/android.widget.EditText[2]
+    -
+      name: 登录按钮
+      type: accessibility_id
+      value: 登录
