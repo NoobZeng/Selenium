@@ -1,0 +1,26 @@
+- desc: 设备名称_手机,appium启动服务端口号_4723
+  port: 4723
+  desired_caps:
+    platformName: Android
+    platformVersion: 5.1
+    deviceName: Y15QKCP7226TB
+    uuid: Y15QKCP7226TB
+    automationName: Uiautomator2
+    appPackage: com.baidu.yuedu
+    appActivity: .splash.SplashActivity
+    noReset: !!bool True
+    unicodeKeyboard: !!bool True
+    resetKeyboard: !!bool True
+- desc: 设备名称_夜神,appium启动服务端口号4724
+  port: 4724
+  desired_caps:
+    platformName: Android
+    platformVersion: 7.1
+    deviceName: 127.0.0.1:62001
+    uuid: 127.0.0.1:62001
+    automationName: Uiautomator2
+    appPackage: com.baidu.yuedu
+    appActivity: .splash.SplashActivity
+    noReset: !!bool True
+    unicodeKeyboard: !!bool True
+    resetKeyboard: !!bool True
