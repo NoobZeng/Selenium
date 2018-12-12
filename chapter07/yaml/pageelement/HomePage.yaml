@@ -1,0 +1,20 @@
+HomePage:
+  doc: 首页
+  # 搜索元素
+  locators:
+    -
+      name: 搜索框
+      type: id
+      value: com.baidu.yuedu:id/tv_search
+    -
+      name: 输入内容框
+      type: id
+      value: com.baidu.yuedu:id/full_text_search_bar_input
+    -
+      name: 删除文本框文字按钮
+      type: id
+      value: com.baidu.yuedu:id/clear_word
+    -
+      name: 搜索按钮
+      type: id
+      value: com.baidu.yuedu:id/full_text_search_bar_search
