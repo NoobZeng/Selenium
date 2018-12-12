@@ -1,0 +1,11 @@
+MyPage:
+  doc: 我的
+  locators:
+    -
+      name: 我的
+      type: id
+      value: com.baidu.yuedu:id/iv_self_center_icon
+    -
+      name: 进入登录页面
+      type: id
+      value: com.baidu.yuedu:id/tx_account_name
