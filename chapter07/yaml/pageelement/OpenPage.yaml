@@ -1,0 +1,21 @@
+OpenPage:
+  doc: 启开页
+  # 百度阅读
+  # 跳过广告、选择喜好
+  locators:
+    -
+      name: 图书
+      type: accessibility_id
+      value: 图书
+    -
+      name: 小说
+      type: accessibility_id
+      value: 小说
+    -
+      name: 协议复选框
+      type: id
+      value: com.baidu.yuedu:id/cb_choose_view
+    -
+      name: 提交按钮
+      type: id
+      value: com.baidu.yuedu:id/tv_confirm_button
