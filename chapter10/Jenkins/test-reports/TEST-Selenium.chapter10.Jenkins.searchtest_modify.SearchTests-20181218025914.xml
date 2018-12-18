@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="Selenium.chapter10.Jenkins.searchtest_modify.SearchTests-20181218025914" tests="2" time="2.257">
+	<testcase classname="Selenium.chapter10.Jenkins.searchtest_modify.SearchTests" name="test_search_by_name" time="0.542"/>
+	<testcase classname="Selenium.chapter10.Jenkins.searchtest_modify.SearchTests" name="test_search_by_category" time="1.715">
+		<error message="13 != 12" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "E:\workspace\PyCharmProjects\Selenium\chapter10\Jenkins\searchtest_modify.py", line 29, in test_search_by_category
+    self.assertEqual(13,len(products))
+AssertionError: 13 != 12
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[第二个测试用例；
+第一个测试用例；
+第三个测试用例；
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

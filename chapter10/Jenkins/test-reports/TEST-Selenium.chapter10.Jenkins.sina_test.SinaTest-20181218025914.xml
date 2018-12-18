@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="Selenium.chapter10.Jenkins.sina_test.SinaTest-20181218025914" tests="3" time="13.502">
+	<testcase classname="Selenium.chapter10.Jenkins.sina_test.SinaTest" name="test_assert_css" time="9.383"/>
+	<testcase classname="Selenium.chapter10.Jenkins.sina_test.SinaTest" name="test_assert_username" time="0.061"/>
+	<testcase classname="Selenium.chapter10.Jenkins.sina_test.SinaTest" name="test_tanjiu_message" time="4.058"/>
+	<system-out>
+<![CDATA[第二个测试用例；
+第一个测试用例；
+第三个测试用例；
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
